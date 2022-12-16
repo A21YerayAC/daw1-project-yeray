@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Rubik:wght@300&display=swap');
+
+.hmain{
+    font-family: "Hind Madurai", 'Courier New';
+    font-size: 3em;
+    color: #B50DDB;
+    background-color: black;
+    height: 8em;
+    margin-bottom: 0.5em;
+    border-bottom: 10px solid #B50DDB;
+   display: flex;
+   flex-direction: row;
+}
+
+.hmain h1{
+margin-left: 375px;
+}
+
+.plogo p{
+    font-size: 15px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+
+/*.circulo{
+    border-radius: 50%;
+    width: 60px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #c460db;
+    border: 2px solid #B50DDB;    
+}
+
+.cabeza{
+    border-radius: 50%;
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #db9555;
+    border: 2px solid #B50DDB;  
+}
+
+.torso{
+    border-top-left-radius: 25px;
+    border-top-right-radius:25px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    background-color: #db9555;
+    border: 2px solid #56c0db;  
+}
+*/
+
+.fmain{
+    height: 3em;
+    margin-top: 0.5em;
+    border-top: 10px solid #B50DDB;
+    background-color: black;
+    color: #B50DDB;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article{
+    width: 350px;
+    height: 450px;
+    margin: 0.5em;
+    border: 2px groove  black;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+article header{
+    background-color: black;
+    height: 8em;
+}
+
+article footer{
+    background-color: black;
+    height: 3em;
+}
+
+article img{
+    height: 260px;
+    width: 350px;
+    
+}
+
+body{
+    font-family: "Rubik";
+}
+
+.HTML p{
+    color: #56C0DB;
+}
+
+.HTML a:visited{
+    color: #56C0DB;
+}
+
+.HTML h1{
+    color: #56C0DB;
+}
+
+.HTML img{
+    border-bottom: 10px solid #56C0DB;
+    border-top: 10px solid #56C0DB;
+}
+
+.CSS a{
+    color: #DB9555;
+}
+
+
+
+.CSS a:visited{
+    color: #DB9555;
+}
+.CSS h1{
+    color: #DB9555;
+    justify-content: center;
+}
+
+.CSS a{
+    color: #DB9555;
+    justify-content: center;
+}
+
+.CSS p{
+    color: #DB9555;
+}
+.CSS img{
+    border-bottom: 10px solid #DB9555;
+    border-top: 10px solid #DB9555;
+}
+
+
+.XML a:visited{
+    color: #A0DB4B;
+}
+
+.XML p{
+    color: #A0DB4B;
+}
+
+.XML img{
+    border-bottom: 10px solid #A0DB4B;
+    border-top: 10px solid #A0DB4B;
+}
+.XML h1{
+    color: #A0DB4B;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+color:white;
+}
+
+
+.mi_nombre{
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.logo{
+    margin:1em;
+}
+
+@media (max-width: 600px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Rubik:wght@300&display=swap');
+
+.hmain{
+    font-family: "Hind Madurai", 'Courier New';
+    font-size: 3em;
+    color: #B50DDB;
+    background-color: black;
+    height: 8em;
+    margin-bottom: 0.5em;
+    border-bottom: 10px solid #B50DDB;
+   display: flex;
+   flex-direction: row;
+}
+
+.hmain h1{
+margin-left: 200px;
+}
+
+.plogo p{
+    font-size: 15px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.circulo{
+    border-radius: 50%;
+    width: 60px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #c460db;
+    border: 2px solid #B50DDB;    
+}
+
+.cabeza{
+    border-radius: 50%;
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #db9555;
+    border: 2px solid #B50DDB;  
+}
+
+.torso{
+    border-top-left-radius: 25px;
+    border-top-right-radius:25px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    background-color: #db9555;
+    border: 2px solid #56c0db;  
+}
+
+
+.fmain{
+    height: 3em;
+    margin-top: 0.5em;
+    border-top: 10px solid #B50DDB;
+    background-color: black;
+    color: #B50DDB;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    width: 350px;
+    height: 450px;
+    margin: 0.5em;
+    border: 2px groove  black;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+article header{
+    background-color: black;
+    height: 8em;
+}
+
+article footer{
+    background-color: black;
+    height: 3em;
+}
+
+article img{
+    height: 260px;
+    width: 350px;
+    
+}
+
+body{
+    font-family: "Rubik";
+}
+
+.HTML{
+    color: #56C0DB,#B50DDB;
+}
+
+.HTML a:visited{
+    color: #56C0DB;
+}
+
+.HTML img{
+    border-bottom: 10px solid #56C0DB;
+    border-top: 10px solid #56C0DB;
+}
+
+.CSS a{
+    color: #DB9555,#B50DDB;
+}
+
+.CSS a:visited{
+    color: #DB9555,#B50DDB;
+}
+
+.CSS img{
+    border-bottom: 10px solid #DB9555;
+    border-top: 10px solid #DB9555;
+}
+
+.XML h1{
+    color: #A0DB4B,#B50DDB;
+}
+
+.XML a:visited{
+    color: #A0DB4B,#B50DDB;
+}
+
+.XML img{
+    border-bottom: 10px solid #A0DB4B;
+    border-top: 10px solid #A0DB4B;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+color:white;
+}
+
+
+.mi_nombre{
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.logo{
+    margin:1em;
+}
+}
