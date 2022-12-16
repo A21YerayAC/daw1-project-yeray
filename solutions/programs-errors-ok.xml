@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<programs>
+      <!-- no puede haber 2 atributos iguales en el mismo elemento-->
+	<program name="firefox" licence="GPL"/>
+	<!--no puede llevar los atributos en la etiqueta de cierre-->
+	<program name="LibreOffice"></program >
+    <!-- no puede haber 2 atributos con valores iguales-->
+	<program name="Inkscape" licence="GPL"/>
+	<!--la etiqueta de apertura era diferente a la de cierre-->
+	<program name="Chrome"></program>
+	<!--Faltaba el valor del atributo Edge-->
+	<program name="Edge"/>
+
+<producers>
+      <!-- falta el "/" de cierre en la etiqueta de cierre-->
+	<producer>Microsoft</producer>
+</producers>
+  <!-- debe haber un elemento raíz que envuelva todo-->
+</programs>

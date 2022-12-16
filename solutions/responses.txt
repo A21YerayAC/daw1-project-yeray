@@ -1,0 +1,4 @@
+El documento XML pesa un 9,40% más de lo que pesa el documento JSON. Por lo que nos ahorraríamos ese 9,40% aproximádamente.
+
+Ejercicio11: La respuesta correcta es la 3, ya que al pertenecer al elemento ItemInformation y este pertenecer al ns:
+Item01, se comparte el namespace, ya que el atributo no tiene un ns diferente.
